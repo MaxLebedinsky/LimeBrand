@@ -1,0 +1,55 @@
+.topper {
+    width: 1787px;
+    height: 934px;
+    color: white;
+    padding: 63px 110px;
+    background-image: url(../images/manchaary/topper.jpg);
+
+    h1 {
+        font-style: italic;
+        font-weight: 600;
+        font-size: 90px;
+    }
+
+    p {
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .subtitle {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 9px;
+    }
+
+    .nav {
+        font-size: 20px;
+        color: #cccccc;
+        margin-bottom: 232px;
+        line-height: auto;
+    }
+
+    .buttons {
+        margin-top: 125px;
+        font-size: 16px;
+        width: 425px;
+        height: 78px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .button {
+        width: 208px;
+        height: 35px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 9px;
+        margin-bottom: 7px;
+    }
+}
+
+
+
