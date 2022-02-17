@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Muller';
-  src: url(../fonts/Muller/MullerBlack.woff2);
+  src: url(../fonts/Muller/MullerBold.woff2);
   font-style: normal;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 @font-face {
@@ -14,9 +14,16 @@
 
 @font-face {
   font-family: 'Muller';
-  src: url(../fonts/Muller/MullerLight.woff2);
+  src: url(../fonts/Muller/MullerRegular.woff2);
   font-style: normal;
   font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url(../fonts/Muller/MullerThin.woff2);
+  font-style: normal;
+  font-weight: 100;
 }
 
 body {
@@ -28,6 +35,10 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+button {
+  outline: 0;
 }
 
 .wrapper {
