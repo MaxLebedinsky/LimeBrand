@@ -1,9 +1,13 @@
 .topper {
-  width: 1787px;
+  width: 1768px;
   height: 934px;
   color: white;
   padding: 63px 110px;
   background-image: url(../images/manchaary/topper.jpg);
+}
+
+.topper .content {
+  max-width: 562px;
 }
 
 .topper h1 {
@@ -45,13 +49,14 @@
       flex-wrap: wrap;
 }
 
-.topper .button {
+.topper .buttons a {
   width: 208px;
   height: 35px;
   border: 1px solid #fff;
   border-radius: 5px;
   text-align: center;
-  vertical-align: middle;
+  text-decoration: none;
+  color: #fff;
   padding-top: 9px;
   margin-bottom: 7px;
 }
@@ -246,7 +251,6 @@ section > h2 {
 .others .cases-item > img {
   -webkit-transition: .5s ease-out;
   transition: .5s ease-out;
-  cursor: pointer;
 }
 
 .others .cases-item > img:hover {
@@ -269,5 +273,20 @@ section > h2 {
   border: 1px solid #000;
   border-radius: 10px;
   margin: 40px auto 100px;
+}
+
+.video-container {
+  position: relative;
+  width: 1546px;
+  height: 767px;
+  margin-top: 50px;
+  margin-left: 108px;
+  overflow: hidden;
+}
+
+.video-container .video-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 /*# sourceMappingURL=manchaary.css.map */
