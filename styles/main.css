@@ -26,6 +26,10 @@
   font-weight: 100;
 }
 
+:root {
+  font-size: 25px;
+}
+
 body {
   font-family: 'Muller', Arial, Helvetica, sans-serif;
 }
@@ -41,95 +45,56 @@ button {
   outline: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrapper {
-  width: 1900px;
-  overflow: hidden;
+  width: 100%;
+  max-width: 1900px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
 }
 
-.wrapper-right {
-  width: 1768px;
-  overflow-x: hidden;
-}
-
 .wrapper-left {
-  width: 132px;
-  min-height: 100vh;
+  width: 7%;
+  background-color: lightgray;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.logo {
+.wrapper-left .logo {
   display: block;
   position: fixed;
-  top: 37px;
-  margin-left: 21px;
+  width: 4.27%;
+  max-width: 82px;
+  margin-left: 1.09%;
+  top: 1.48rem;
   cursor: pointer;
 }
 
-.header {
-  margin-top: 100px;
-  margin-left: 72px;
+.wrapper-right {
+  width: 93%;
+  background-color: white;
 }
 
-.hidden {
-  display: none;
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #fff;
 }
 
-.flip-container {
-  -webkit-perspective: 1000;
-          perspective: 1000;
-  position: relative;
-  width: 1584px;
-  height: 1002px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 63px;
-  margin-left: 95px;
-}
-
-.rotated {
-  -webkit-transform: rotateX(-180deg);
-          transform: rotateX(-180deg);
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
-}
-
-.flipper {
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  width: 264px;
-  height: 334px;
-  position: relative;
-  -webkit-transform-origin: 100% 167px;
-          transform-origin: 100% 167px;
-  -webkit-transition-delay: 0s;
-          transition-delay: 0s;
-}
-
-.front, .back {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  position: absolute;
-  width: 264px;
-  height: 334px;
-  top: 0;
-  left: 0;
-}
-
-.front {
-  z-index: 2;
-}
-
-.back {
-  -webkit-transform: rotateX(180deg);
-          transform: rotateX(180deg);
+h1 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: auto;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,64 @@
+.topper {
+  width: 100%;
+  height: 49.16vw;
+  background: url(../images/manchaary/topper.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 3.32vw 5.79vw;
+}
+
+.topper .content {
+  max-width: 29.6vw;
+}
+
+.topper .content h1 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 4.74vw;
+}
+
+.topper .content p {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.topper .content .subtitle {
+  font-size: 1.59vw;
+  line-height: 2.11vw;
+  margin-bottom: 0.47vw;
+}
+
+.topper .content .nav {
+  font-size: 1.05vw;
+  color: #cccccc;
+  margin-bottom: 12.21vw;
+  line-height: auto;
+}
+
+.topper .content .buttons {
+  margin-top: 6.58vw;
+  font-size: 0.84vw;
+  width: 22.37vw;
+  height: 4.11vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.topper .content .buttons a {
+  width: 10.94vw;
+  height: 1.84vw;
+  border: 1px solid #fff;
+  border-radius: 0.27vw;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 0.47vw;
+  margin-bottom: 0.37vw;
+}
+/*# sourceMappingURL=manchaary-100vw.css.map */
