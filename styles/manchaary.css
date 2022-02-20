@@ -47,39 +47,44 @@
   margin-bottom: 0.28rem;
 }
 
-@media screen and (max-width: 1440px) {
-  :root {
-    font-size: 20px;
+@media screen and (max-width: 428px) {
+  .wrapper-left {
+    display: none;
   }
-  p {
-    color: red;
+  .wrapper-right {
+    width: 100%;
   }
-}
-
-@media screen and (max-width: 1440px) and (max-width: 1280px) {
-  :root {
-    font-size: 18px;
+  .topper {
+    background: url(../images/manchaary/topper-mob.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: #fff;
+    padding: 44.15% 2.34% 118%;
   }
-  p {
-    color: green;
+  .topper .nav {
+    display: none;
   }
-}
-
-@media screen and (max-width: 1440px) and (max-width: 1024px) {
-  :root {
-    font-size: 15px;
+  .topper .subtitle {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: 3.43%;
   }
-  p {
-    color: violet;
+  .topper h1 {
+    font-size: 2.5rem;
+    margin-bottom: 17.4%;
+    max-width: 100%;
   }
-}
-
-@media screen and (max-width: 1440px) and (max-width: 768px) {
-  :root {
-    font-size: 12px;
+  .topper .buttons {
+    font-size: 1rem;
+    width: 100%;
   }
-  p {
-    color: blue;
+  .topper .buttons a {
+    display: block;
+    width: 49.12%;
+    height: 2.125rem;
+    border-radius: 0.3rem;
+    padding-top: 0.55rem;
+    margin-bottom: 0.4rem;
   }
 }
 /*# sourceMappingURL=manchaary.css.map */

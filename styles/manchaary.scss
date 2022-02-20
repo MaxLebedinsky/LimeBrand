@@ -46,41 +46,62 @@
     }
 }
 
-@media screen and (max-width:1440px) {   
-    :root {
-        font-size: 20px;
-    }
-    p {
-        color: red;
-}
+@media screen and (max-width:428px) {   
 
-@media screen and (max-width:1280px) {   
-    :root {
-        font-size: 18px;
+    .wrapper-left {
+        display: none;
     }
-    p {
-        color: green;
-    }
-}
 
-@media screen and (max-width:1024px) {   
-    :root {
-        font-size: 15px;
+    .wrapper-right {
+        width: 100%;
     }
-    p {
-        color: violet;
-    }
-}
 
-@media screen and (max-width:768px) {   
-    :root {
-        font-size: 12px;
+    .topper {
+        // width: 100%;
+        background: url(../images/manchaary/topper-mob.jpg) no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        color: #fff;
+        padding: 44.15% 2.34% 118%;
+    
+        .nav {
+            display: none;
+        }
+    
+        .subtitle {
+                font-size: 1rem;
+                line-height: 1.25rem;
+                margin-bottom: 3.43%;
+            }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 17.4%;
+            max-width: 100%;
+        }
+    
+        .buttons {
+            font-size: 1rem;
+            width: 100%;
+            // display: flex;
+            // justify-content: space-between;
+            // flex-wrap: wrap;
+    
+            a {
+                display: block;
+                width: 49.12%;
+                height: 2.125rem;
+                // border: 1px solid #fff;
+                border-radius: 0.3rem;
+                // text-align: center;
+                // color: #fff;
+                padding-top: 0.55rem;
+                margin-bottom: 0.4rem;
+            }
+        }
     }
-    p {
-        color: blue;
-    }
-}
 
+}
 
     // .content {
         // max-width: 52%;
@@ -120,7 +141,6 @@
         //     }
         // }
     // }
-}
 
 // .topper {
 //     width: 1768px;
