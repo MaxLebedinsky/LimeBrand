@@ -1,5 +1,6 @@
 .topper {
   width: 100%;
+  height: 100vh;
   background: url(../images/manchaary/topper.jpg) no-repeat;
   background-size: cover;
   color: #fff;
@@ -14,7 +15,8 @@
 
 .topper .subtitle {
   font-size: 1.2rem;
-  margin-bottom: 0.5%;
+  margin-bottom: 1.1%;
+  color: #fff;
 }
 
 .topper h1 {
@@ -47,19 +49,199 @@
   margin-bottom: 0.28rem;
 }
 
+.video-content {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.typography {
+  width: 96.76%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.typography-block {
+  width: 50%;
+}
+
+.typography-block h3 {
+  font-style: italic;
+  font-size: 1rem;
+  color: #404040;
+  line-height: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.typography-block .avante {
+  width: 54.48%;
+}
+
+.typography-block .palette {
+  width: 100%;
+}
+
+.app-map h2 {
+  margin-bottom: 1.72rem;
+}
+
+.app-map img {
+  width: 98.5%;
+}
+
+.components img {
+  width: 98.6%;
+}
+
+.components .mobile {
+  display: none;
+}
+
+.top-chart h2 {
+  line-height: 2.8rem;
+  margin-bottom: 0.72rem;
+  max-width: 70%;
+}
+
+.top-chart .features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 95.6%;
+  margin-top: 1.08rem;
+}
+
+.top-chart .features-item img {
+  width: 7.2rem;
+  margin: 0 0 0.24rem;
+}
+
+.top-chart img {
+  margin: 0.2rem auto;
+  width: 56.27%;
+}
+
+.team {
+  width: 100%;
+  background-color: #F3F3F3;
+  padding: 4.56rem 1rem 1.96rem 4.32rem;
+}
+
+.team h2 {
+  margin-bottom: 2rem;
+}
+
+.team-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.team-content-item {
+  width: 25%;
+  margin-bottom: 2.6rem;
+}
+
+.team-content-item .name {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.others h2 {
+  margin-bottom: 1rem;
+}
+
+.others .cases {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.others .cases-item {
+  position: relative;
+  width: 48.9%;
+  margin-bottom: 1.84rem;
+  overflow: hidden;
+}
+
+.others .cases-item img {
+  width: 100%;
+}
+
+.others .cases-item .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #3BA0EA;
+  opacity: 0;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s ease-out;
+  z-index: 2;
+}
+
+.others .cases-item .overlay-content {
+  padding: 10.8% 7.87%;
+}
+
+.others .cases-item .overlay-content h3 {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  font-weight: 100;
+  color: #fff;
+}
+
+.others .cases-item .overlay-content p {
+  line-height: 1.44rem;
+  color: #fff;
+}
+
+.others .cases-item:hover .overlay {
+  opacity: 1;
+}
+
+.others .cases-item:hover .content {
+  opacity: 1;
+}
+
+.others a {
+  display: block;
+  text-decoration: none;
+  width: 25.36%;
+  height: 3.84rem;
+  text-align: center;
+  padding: 1.32rem;
+  font-weight: 100;
+  font-size: 1.2rem;
+  font-style: normal;
+  color: #000;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 0.4rem;
+  margin: 0 auto 100px;
+}
+
 @media screen and (max-width: 428px) {
-  .wrapper-left {
-    display: none;
-  }
-  .wrapper-right {
-    width: 100%;
-  }
   .topper {
     background: url(../images/manchaary/topper-mob.jpg) no-repeat;
     background-size: cover;
     background-position: bottom;
     color: #fff;
     padding: 44.15% 2.34% 118%;
+    height: auto;
   }
   .topper .nav {
     display: none;
@@ -85,6 +267,104 @@
     border-radius: 0.3rem;
     padding-top: 0.55rem;
     margin-bottom: 0.4rem;
+  }
+  .columned-text {
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
+  .typography {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0;
+  }
+  .typography-block {
+    width: 100%;
+    margin-top: 3.13rem;
+  }
+  .typography-block .avante {
+    width: 74.75%;
+  }
+  .typography-block .palette {
+    width: 100%;
+  }
+  .app-map h2 {
+    margin-bottom: 1.13rem;
+  }
+  .app-map img {
+    width: 100%;
+  }
+  .components {
+    width: 100%;
+  }
+  .components .desktop {
+    display: none;
+  }
+  .components .mobile {
+    display: block;
+    width: 96.3%;
+    margin: 0 auto;
+  }
+  .top-chart h2 {
+    margin-bottom: 1rem;
+    max-width: 100%;
+    line-height: normal;
+  }
+  .top-chart .features {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    margin-top: 0;
+  }
+  .top-chart .features-item {
+    width: 48%;
+    margin-top: 1.25rem;
+  }
+  .top-chart .features-item h3 {
+    margin-bottom: 0;
+  }
+  .top-chart .features-item img {
+    width: 11.25rem;
+  }
+  .top-chart img {
+    margin: 2rem auto 2.5rem;
+    width: 100%;
+  }
+  .team {
+    width: 100%;
+    background-color: #F3F3F3;
+    padding: 5rem 0.75rem;
+  }
+  .team h2 {
+    margin-bottom: 1.38rem;
+  }
+  .team-content-item {
+    width: 50%;
+    padding-right: 20%;
+    margin-bottom: 1rem;
+  }
+  .team-content-item .name {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .others .smaller {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+  .others .cases-item {
+    width: 100%;
+    margin-bottom: 0.63rem;
+  }
+  .others a {
+    width: 96%;
+    height: 4.69rem;
+    padding: 1.37rem;
+    font-weight: 100;
+    font-size: 1.88rem;
+    border-radius: 0.63rem;
+    margin: 0 auto 100px;
   }
 }
 /*# sourceMappingURL=manchaary.css.map */
