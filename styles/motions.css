@@ -1,0 +1,93 @@
+.hidden {
+  display: none;
+}
+
+.flip-container {
+  -webkit-perspective: 1000;
+          perspective: 1000;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 300px auto 0;
+}
+
+.flip-container img {
+  display: block;
+  width: 101%;
+}
+
+.rotated {
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.flipper {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  width: 16.66%;
+  padding-top: 21.09%;
+  position: relative;
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+.header img {
+  display: block;
+  -webkit-animation: appear;
+          animation: appear;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: absolute;
+  top: 120%;
+  z-index: 3;
+}
+
+@-webkit-keyframes appear {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0;
+  }
+}
+
+@keyframes appear {
+  from {
+    top: 100%;
+  }
+  to {
+    top: 0;
+  }
+}
+/*# sourceMappingURL=motions.css.map */

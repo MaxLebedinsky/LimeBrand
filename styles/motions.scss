@@ -1,0 +1,77 @@
+.hidden {
+    display: none;
+}
+
+.flip-container {
+	perspective: 1000;
+    // position: relative;
+    // width: 1584px;
+    width: 80%;
+    // height: 1002px;
+    display: flex;
+    flex-wrap: wrap;
+    // margin-top: 63px;
+    // margin-left: 95px;
+    margin: 300px auto 0;
+
+    img {
+        display: block;
+        width: 101%;
+    }
+}
+
+.rotated {
+    transform: rotateX(-180deg);
+    transition-delay: 0s;
+}
+
+.flipper {
+	transition: 1s ease-in-out;
+	transform-style: preserve-3d;
+    // width: 264px;
+	// height: 334px;
+    width: 16.66%;
+    padding-top: 21.09%;
+	position: relative;
+    // transform-origin: 100% 167px;
+    transform-origin: 100% 50%;
+    transition-delay: 0s;
+}
+ 
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+    // width: 264px;
+	// height: 334px;
+    width: 100%;
+	top: 0;
+	left: 0;
+    // background-color: violet;
+}
+ 
+.front {
+	z-index: 2;
+    // background-color: green;
+}
+ 
+.back {
+	transform: rotateX(180deg);
+}
+
+.header {
+    img {
+        display: block;
+        animation: appear;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        position: absolute;
+        top: 120%;
+        z-index: 3;
+    }
+}
+
+@keyframes appear {
+    from {top:100%;}
+    to {top:0}
+}
