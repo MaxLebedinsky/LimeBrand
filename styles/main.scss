@@ -253,49 +253,49 @@ h3 {
 //     margin-left: 72px;
 // }
 
-// .hidden {
-//     display: none;
-// }
+.hidden {
+    display: none;
+}
 
-// .flip-container {
-// 	perspective: 1000;
-//     position: relative;
-//     width: 1584px;
-//     height: 1002px;
-//     display: flex;
-//     flex-wrap: wrap;
-//     margin-top: 63px;
-//     margin-left: 95px;
-// }
+.flip-container {
+	perspective: 1000;
+    position: relative;
+    width: 1584px;
+    height: 1002px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 63px;
+    margin-left: 95px;
+}
 
-// .rotated {
-//     transform: rotateX(-180deg);
-//     transition-delay: 0s;
-// }
+.rotated {
+    transform: rotateX(-180deg);
+    transition-delay: 0s;
+}
 
-// .flipper {
-// 	transition: 1s ease-in-out;
-// 	transform-style: preserve-3d;
-//     width: 264px;
-// 	height: 334px;
-// 	position: relative;
-//     transform-origin: 100% 167px;
-//     transition-delay: 0s;
-// }
+.flipper {
+	transition: 1s ease-in-out;
+	transform-style: preserve-3d;
+    width: 264px;
+	height: 334px;
+	position: relative;
+    transform-origin: 100% 167px;
+    transition-delay: 0s;
+}
  
-// .front, .back {
-// 	backface-visibility: hidden;
-// 	position: absolute;
-//     width: 264px;
-// 	height: 334px;
-// 	top: 0;
-// 	left: 0;
-// }
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+    width: 264px;
+	height: 334px;
+	top: 0;
+	left: 0;
+}
  
-// .front {
-// 	z-index: 2;
-// }
+.front {
+	z-index: 2;
+}
  
-// .back {
-// 	transform: rotateX(180deg);
-// }
+.back {
+	transform: rotateX(180deg);
+}

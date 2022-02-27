@@ -207,4 +207,63 @@ h3 {
     font-size: 12px;
   }
 }
+
+.hidden {
+  display: none;
+}
+
+.flip-container {
+  -webkit-perspective: 1000;
+          perspective: 1000;
+  position: relative;
+  width: 1584px;
+  height: 1002px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 63px;
+  margin-left: 95px;
+}
+
+.rotated {
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.flipper {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  width: 264px;
+  height: 334px;
+  position: relative;
+  -webkit-transform-origin: 100% 167px;
+          transform-origin: 100% 167px;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  width: 264px;
+  height: 334px;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
 /*# sourceMappingURL=main.css.map */

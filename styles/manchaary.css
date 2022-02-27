@@ -1,6 +1,5 @@
 .topper {
   width: 100%;
-  height: 100vh;
   background: url(../images/manchaary/topper.jpg) no-repeat;
   background-size: cover;
   color: #fff;
@@ -241,7 +240,6 @@
     background-position: bottom;
     color: #fff;
     padding: 44.15% 2.34% 118%;
-    height: auto;
   }
   .topper .nav {
     display: none;
