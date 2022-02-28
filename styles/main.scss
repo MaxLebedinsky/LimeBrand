@@ -66,31 +66,8 @@ img {
     position: relative;
     width: 100%;
     max-width: 1920px;
-    display: flex;
+    // display: flex;
     margin: 0 auto;
-
-    &-left {
-        width: 7%;
-        max-width: 133px;
-        background-color: #fff;
-        border-right: 1px solid rgba(0, 0, 0, .1);
-        box-sizing: border-box;
-
-        .logo {
-            display: block;
-            position: fixed;
-            width: 4.27%;
-            max-width: 82px;
-            margin-left: calc(min(1.09%, 21px));
-            top: 1.48rem;
-            cursor: pointer;
-        }
-    }
-    &-right {
-        width: 93%;
-        max-width: 1787px;
-        background-color: #fff;
-    }
 }
 
 .container {
@@ -110,21 +87,6 @@ p {
     line-height: 1.6rem;
     color: #404040;
 }
-
-.columned-text {
-    column-count: 2;
-    column-gap: 1.5rem;
-}
-
-// .col-text-container {
-//     width: 100%;
-//     display: flex;
-//     justify-content: space-between;
-
-//     p {
-//         width: 48.87%;
-//     }
-// }
 
 h1 {
     font-style: italic;

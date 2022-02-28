@@ -67,35 +67,7 @@ img {
   position: relative;
   width: 100%;
   max-width: 1920px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin: 0 auto;
-}
-
-.wrapper-left {
-  width: 7%;
-  max-width: 133px;
-  background-color: #fff;
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.wrapper-left .logo {
-  display: block;
-  position: fixed;
-  width: 4.27%;
-  max-width: 82px;
-  margin-left: calc(min(1.09%, 21px));
-  top: 1.48rem;
-  cursor: pointer;
-}
-
-.wrapper-right {
-  width: 93%;
-  max-width: 1787px;
-  background-color: #fff;
 }
 
 .container {
@@ -114,13 +86,6 @@ p {
   font-size: 1rem;
   line-height: 1.6rem;
   color: #404040;
-}
-
-.columned-text {
-  -webkit-column-count: 2;
-          column-count: 2;
-  -webkit-column-gap: 1.5rem;
-          column-gap: 1.5rem;
 }
 
 h1 {
